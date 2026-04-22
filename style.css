@@ -1,1 +1,123 @@
-<!-- estrutura inicial -->
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fundo */
+body {
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Input */
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.input-area button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background: #1d4ed8;
+}
+
+/* Filtros */
+.filtros {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filtros button {
+  flex: 1;
+  margin: 2px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #334155;
+  color: white;
+  cursor: pointer;
+}
+
+.filtros button:hover {
+  background: #475569;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+/* Item da lista */
+li {
+  background: #334155;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Botões dentro da tarefa */
+li button {
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+/* Botões específicos */
+.concluir {
+  background: #22c55e;
+}
+
+.excluir {
+  background: #ef4444;
+}
+
+/* Contador */
+#contador {
+  color: #cbd5f5;
+  font-size: 14px;
+}
