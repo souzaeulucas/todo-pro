@@ -43,7 +43,9 @@ Este projeto foi desenvolvido para praticar conceitos fundamentais de JavaScript
 
 ## 📸 Preview
 
-*(Você pode colocar um print aqui depois)*
+<p align="left">
+  <img src="https://github.com/souzaeulucas/todo-pro/blob/main/TODOPRO.png" width="30%" />
+</p>
 
 ---
 
